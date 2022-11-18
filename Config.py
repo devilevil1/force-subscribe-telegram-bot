@@ -8,15 +8,15 @@ class Config():
     APP_ID = os.environ.get("APP_ID", 6)
     API_HASH = os.environ.get("API_HASH", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(1071294954)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
-    APP_ID = ""
-    API_HASH = ""
+    BOT_TOKEN = "5925907225:AAEoUGKGF4fkK9hzxi65wnNtK1Gap29uz_o"
+    DATABASE_URL = "mongodb+srv://qashidark:Ayesha.Qasim1@cluster0.3ywjjzu.mongodb.net/?retryWrites=true&w=majority"
+    APP_ID = "29024923"
+    API_HASH = "5f917f1d096939dc6b282ef40e922827"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(1071294954)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-        "**Developed by @viperadnan**"
+        "**Developed by @qashidevil**"
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
